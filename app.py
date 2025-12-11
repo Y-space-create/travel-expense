@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 import json, os, datetime, base64
 
-DB_FILE = "db.json" 
+DB_FILE = "/mount/tmp/db.json"
 
 # ---------- 工具 ----------
 @st.cache_data 
